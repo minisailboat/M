@@ -11,7 +11,11 @@ class HomePage extends StatelessWidget {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: const Text('Home'),
         ),
-        body: const Text('xie293')
+        body: const Column(
+            children: [
+              Text('xie293')
+            ],
+        )
     );
   }
 }
